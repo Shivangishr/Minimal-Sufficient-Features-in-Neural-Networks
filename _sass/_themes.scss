@@ -1,0 +1,20 @@
+
+:root {
+    --global-theme-color: #2698ba;
+    --global-hover-color: #1688aa;
+}
+
+header:has(nav)::after {
+  content: "";
+  display: block;
+  margin: auto;
+  width: 100%;
+
+  background-image: url("../img/ICLR-logo.png");
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position: center bottom;
+  height: 12em;
+  margin-bottom: 0em;
+  margin-top: -2.7em;
+}
