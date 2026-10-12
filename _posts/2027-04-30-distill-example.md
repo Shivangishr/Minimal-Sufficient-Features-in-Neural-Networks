@@ -4,7 +4,7 @@ title: Sample Blog Post
 description: Your blog post's abstract.
   Please add your abstract or summary here and not in the main body of your text.
   Do not include math/latex or hyperlinks.
-date: 2999-12-31
+date: 2027-04-30
 future: true
 htmlwidgets: true
 hidden: true
@@ -33,7 +33,7 @@ authors:
       name: IAS, Princeton
 
 # must be the exact same name as your blogpost
-bibliography: 2999-12-31-distill-example.bib
+bibliography: 2027-04-30-distill-example.bib
 
 # Add a table of contents to your post.
 #   - make sure that TOC names match the actual section names
@@ -98,25 +98,25 @@ might face losing important information in your blog post.
 To include images in your submission in this way, you must do something like the following:
 
 ```markdown
-{% raw %}{% include figure.liquid path="assets/img/2999-12-31-distill-example/iclr.png" class="img-fluid" %}{% endraw %}
+{% raw %}{% include figure.liquid path="assets/img/2027-04-30-distill-example/iclr.png" class="img-fluid" %}{% endraw %}
 ```
 
 which results in the following image:
 
-{% include figure.liquid path="assets/img/2999-12-31-distill-example/iclr.png" class="img-fluid" %}
+{% include figure.liquid path="assets/img/2027-04-30-distill-example/iclr.png" class="img-fluid" %}
 
 To ensure that there are no namespace conflicts, you must save your asset to your unique directory
-`/assets/img/2999-12-31-[SUBMISSION NAME]` within your submission.
+`/assets/img/2027-04-30-[SUBMISSION NAME]` within your submission.
 
 Please avoid using the direct markdown method of embedding images; they may not be properly resized.
 Some more complex ways to load images (note the different styles of the shapes/shadows):
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/2999-12-31-distill-example/9.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/2027-04-30-distill-example/9.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/2999-12-31-distill-example/7.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/2027-04-30-distill-example/7.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -125,22 +125,22 @@ Some more complex ways to load images (note the different styles of the shapes/s
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/2999-12-31-distill-example/8.jpg" class="img-fluid z-depth-2" %}
+        {% include figure.liquid path="assets/img/2027-04-30-distill-example/8.jpg" class="img-fluid z-depth-2" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/2999-12-31-distill-example/10.jpg" class="img-fluid z-depth-2" %}
+        {% include figure.liquid path="assets/img/2027-04-30-distill-example/10.jpg" class="img-fluid z-depth-2" %}
     </div>
 </div>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/2999-12-31-distill-example/11.jpg" class="img-fluid"  %}
+        {% include figure.liquid path="assets/img/2027-04-30-distill-example/11.jpg" class="img-fluid"  %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/2999-12-31-distill-example/12.jpg" class="img-fluid" %}
+        {% include figure.liquid path="assets/img/2027-04-30-distill-example/12.jpg" class="img-fluid" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/2999-12-31-distill-example/7.jpg" class="img-fluid" %}
+        {% include figure.liquid path="assets/img/2027-04-30-distill-example/7.jpg" class="img-fluid" %}
     </div>
 </div>
 
@@ -170,7 +170,7 @@ fig = px.density_mapbox(
     center=dict(lat=0, lon=180), zoom=0, mapbox_style="stamen-terrain")
 fig.show()
 
-fig.write_html('./assets/html/2999-12-31-distill-example/plotly_demo_1.html')
+fig.write_html('./assets/html/2027-04-30-distill-example/plotly_demo_1.html')
 ```
 
 And then include it with the following:
@@ -179,7 +179,7 @@ And then include it with the following:
 {% raw %}
 <div class="l-page">
   <iframe
-    src="{{ 'assets/html/2999-12-31-distill-example/plotly_demo_1.html' | relative_url }}"
+    src="{{ 'assets/html/2027-04-30-distill-example/plotly_demo_1.html' | relative_url }}"
     frameborder="0"
     scrolling="no"
     height="600px"
@@ -192,7 +192,7 @@ And then include it with the following:
 Voila!
 
 <div class="l-page">
-  <iframe src="{{ 'assets/html/2999-12-31-distill-example/plotly_demo_1.html' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%"></iframe>
+  <iframe src="{{ 'assets/html/2027-04-30-distill-example/plotly_demo_1.html' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%"></iframe>
 </div>
 
 ## Citations

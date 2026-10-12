@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-<!-- 2999-TODO-UPNEW -->
+<!-- 2027-TODO-UPNEW -->
 ## Please note: we are currently updating the repo and workflows. Full submission guide coming soon! 
 
 If you want to start building your site now, we will mostly be following the process from the last iteration as described below, but please be aware that **we are not yet accepting pull requests**, and you may need to update your fork before submitting any pull requests with your submission.
@@ -98,7 +98,7 @@ You will be submitting a pull request this repository.
 
 ### Creating a Blog Post
 
-To create a blog post in Markdown format, you can modify the [example]({% post_url 2999-12-31-distill-example %}) Markdown post `_posts/{{ site.date }}-distill-example.md` and rename it to `_posts/{{ site.date }}-[SUBMISSION NAME].md`, where `[SUBMISSION NAME]` is the name of your submission. You can see the result of the sample post .
+To create a blog post in Markdown format, you can modify the [example]({% post_url 2027-04-30-distill-example %}) Markdown post `_posts/{{ site.date }}-distill-example.md` and rename it to `_posts/{{ site.date }}-[SUBMISSION NAME].md`, where `[SUBMISSION NAME]` is the name of your submission. You can see the result of the sample post .
 
 While most users will want to create a post in the Markdown format, it is also possible to create a post in HTML format. For this, modify instead the example `_posts/{{ site.date }}-distill-example2.html` and rename it to `_posts/{{ site.date }}-[SUBMISSION NAME].html`. (NOTE: HTML is not officially supported, use at your own risk).
 
@@ -155,7 +155,7 @@ submission is anonymous for the review process**).
 
 <!-- Add any tags that are relevant to your post, such as the areas your work is relevant to. -->
 
-Read our [sample blog post]({% post_url 2999-12-31-distill-example %}) carefully to see how you can add image assets, and how to write using $$\LaTeX$$!
+Read our [sample blog post]({% post_url 2027-04-30-distill-example %}) carefully to see how you can add image assets, and how to write using $$\LaTeX$$!
 Read about rendering your post locally [below](#serving).
 
 **Important: make sure your post is completely anonymized before you export and submit it!**

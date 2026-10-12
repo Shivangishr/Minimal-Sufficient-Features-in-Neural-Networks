@@ -3,13 +3,13 @@
 # -----------------------------------------------------------------------------
 
 # NB: (admin) not only these must to be modified...
-year: '2999'
-date: '2999-12-31'
-title: ICLR Blogposts 2999
-baseurl: /2999
-deadline: December 1st, 2999 23:59 AOE
-decisions: February 21st, 2999
-camera_ready: March 15th, 2999
+year: '2027'
+date: '2027-04-30'
+title: ICLR Blogposts 2027
+baseurl: /2027
+deadline: December 1st, 2027 23:59 AOE
+decisions: February 21st, 2027
+camera_ready: March 15th, 2027
 last_year: 2998
 last_rank: fifth # When preparing for 2027, fifth because ICLR 2026 BP was the fifth
 

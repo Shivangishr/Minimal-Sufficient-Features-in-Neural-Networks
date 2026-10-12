@@ -9,7 +9,7 @@ SLUG = sys.argv[1]
 
 OUTPUT_MSG = ""
 
-SLUG_TEMPLATE = "2999-\d\d-\d\d-.+"
+SLUG_TEMPLATE = "2027-\d\d-\d\d-.+"
 if re.match(SLUG_TEMPLATE, SLUG) is None:
     print("Your slug does not match the template! Please change it.")
     print(f"Your slug: {SLUG}")

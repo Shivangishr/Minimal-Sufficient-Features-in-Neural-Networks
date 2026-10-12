@@ -2,7 +2,7 @@
 set -euo pipefail
 
 OWNER="iclr-blogposts"   # replace with your repo owner
-REPO="2999"     # replace with your repo name
+REPO="2027"     # replace with your repo name
 BASE_BRANCH="main" # or "master"
 
 # 1. Make sure we’re up to date
