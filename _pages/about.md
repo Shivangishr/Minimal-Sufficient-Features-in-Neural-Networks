@@ -130,16 +130,16 @@ For other inquiries, reach us via email at: [iclr-blogpost-track@googlegroups.co
 
 ## References
 
-<a name="Litt">Michael L Littman. Collusion rings threaten the integrity of computer science research. Communications of the ACM, 2021.</a>
+<a name="Litt"> <a href="https://dl.acm.org/doi/10.1145/3429776">Michael L Littman. Collusion rings threaten the integrity of computer science research</a>. Communications of the ACM, 2021.</a>
 
-<a name="Tran">David Tran, Alex Valtchanov, Keshav Ganapathy, Raymond Feng, Eric Slud, Micah Goldblum, and Tom Goldstein. An open review of OpenReview: A critical analysis of the machine learning conference review process. arXiv, 2020. </a>
+<a name="Tran"> <a href="https://arxiv.org/pdf/2010.05137v1">David Tran, Alex Valtchanov, Keshav Ganapathy, Raymond Feng, Eric Slud, Micah Goldblum, and Tom Goldstein. An open review of OpenReview: A critical analysis of the machine learning conference review process</a>. arXiv, 2020. </a>
 
-<a name="Lin">Hsuan-Tien Lin, Maria-Florina Balcan, Raia Hadsell, and Marc’Aurelio Ranzato. What we learned from NeurIPS 2020 reviewing process. Medium https://medium.com/@NeurIPSConf/what-we-learned-from-neurips-2020-reviewing-process-e24549eea38f, 2020. </a>
+<a name="Lin"> <a href="https://medium.com/@NeurIPSConf/what-we-learned-from-neurips-2020-reviewing-process-e24549eea38f">Hsuan-Tien Lin, Maria-Florina Balcan, Raia Hadsell, and Marc’Aurelio Ranzato. What we learned from NeurIPS 2020 reviewing process</a>. Medium, 2020. </a>
 
-<a name="Brow">Eryn Brown and Chris Woolston. Why science blogging still matters. Nature, 2018.</a>
+<a name="Brow"><a href="https://www.nature.com/articles/d41586-018-01414-6">Eryn Brown and Chris Woolston. Why science blogging still matters</a>. Nature, 2018.</a>
 
 <a name="Halm">Paul R Halmos. Nicolas Bourbaki. Scientific American, 1957.</a>
 
 <a name="Bour">Nicolas Bourbaki. Elements of mathematics. Éditions Hermann, 1939.</a>
 
-<a name="Shah">Nihar Shah. Asking authors about their own papers. Medium https://medium.com/@TmlrOrg/asking-authors-about-their-own-papers-3d2e04e5dee0, 2026. </a>
+<a name="Shah"> <a href="https://medium.com/@TmlrOrg/asking-authors-about-their-own-papers-3d2e04e5dee0">Nihar Shah. Asking authors about their own papers</a>. Medium, 2026. </a>
