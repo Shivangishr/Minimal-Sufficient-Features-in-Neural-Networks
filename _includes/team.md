@@ -8,19 +8,19 @@
   {% include people_horizontal.html name="Sophie Xhonneux" affiliation="Mila, Université de Montréal" img="assets/img/organizers/sx.jpg" %}
   {% include people_horizontal.html name="Nicholas Gao" affiliation="CuspAI" img="assets/img/organizers/ng.jpg" %}
   {% include people_horizontal.html name="Jonas Köhler" affiliation="CuspAI" img="assets/img/organizers/jk.jpg" %}
-  {% include people_horizontal.html name="David Dobre" affiliation="Mila, Université de Montréal" img="assets/img/organizers/dd.jpg" %}
+  {% include people_horizontal.html name="Yan Scholten" affiliation="Technical University of Munich" img="assets/img/organizers/ys.jpg" %}
   {% include people_horizontal.html name="Quentin Bertrand" affiliation="Inria" img="assets/img/organizers/qb.jpg" %}
   {% include people_horizontal.html name="Rémi Emonet" affiliation="Hubert Curien Laboratory,  University of Saint-Étienne, Inria" img="assets/img/organizers/re.jpg" %}
 </div>
 
 {% else %}
 
-- David Dobre, Mila, Université de Montréal
 - Nicholas Gao, CuspAI
 - Jonas Köhler, CuspAI
 - Mehrnaz Mofakhami, Mila, Université de Montréal
 - Leo Schwinn, Technical University of Munich
 - Sophie Xhonneux, Mila, Université de Montréal
+- Yan Scholten, Technical University of Munich
 - Quentin Bertrand, Inria
 - Rémi Emonet, Université Jean Monnet
 
