@@ -138,8 +138,8 @@ For other inquiries, reach us via email at: [iclr-blogpost-track@googlegroups.co
 
 <a name="Brow">Eryn Brown and Chris Woolston. Why science blogging still matters. Nature, 2018.</a>
 
-<a name="Halm">Paul R Halmos. Nicolas Bourbaki. Scientific American, 1957.<a>
+<a name="Halm">Paul R Halmos. Nicolas Bourbaki. Scientific American, 1957.</a>
 
 <a name="Bour">Nicolas Bourbaki. Elements of mathematics. Éditions Hermann, 1939.</a>
 
-<a name=”Shah”>Nihar Shah. Asking authors about their own papers. Medium https://medium.com/@TmlrOrg/asking-authors-about-their-own-papers-3d2e04e5dee0, 2026. </a>
+<a name="Shah">Nihar Shah. Asking authors about their own papers. Medium https://medium.com/@TmlrOrg/asking-authors-about-their-own-papers-3d2e04e5dee0, 2026. </a>
