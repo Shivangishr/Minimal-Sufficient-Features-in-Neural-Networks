@@ -20,17 +20,23 @@ social: false # includes social icons at the bottom of the page
 # Key Dates
 - **Abstract & Submission deadline**: {{ site.deadline }}
   - [Submit to OpenReview](https://openreview.net/group?id=ICLR.cc/{{ site.year }}/BlogPosts)
-  - Any modifications to your blog post, via a pull request on github
+  - Any modifications to your blog post, via a pull request on GitHub
 - **Notification of acceptance**: {{ site.decisions }}
 - **Camera-ready merge**: {{ site.camera_ready }}
 
 ## Contents
 
-- [ICLR {{ site.year }} Blogposts Track](#iclr-blogposts-track)
-  - [A Call for Blog Posts](#a-call-for-blog-posts)
-    - [Conflict of interest](#conflict-of-interest)
+- [Key Dates](#key-dates)
+  - [Contents](#contents)
+- [ICLR Blogposts Track](#iclr-blogposts-track)
+  - [A Blog Post Conference Track](#a-blog-post-conference-track)
+  - [AI Usage](#ai-usage)
+  - [Submission caps](#submission-caps)
+  - [Blog posts discussing previously published work](#blog-posts-discussing-previously-published-work)
+      - [Content](#content)
+      - [Conflict of interest](#conflict-of-interest)
   - [Publication](#publication)
-    - [Poster](#poster)
+      - [Poster](#poster)
   - [Submissions](#submissions)
   - [Contact](#contact)
   - [Organizers](#organizers)
@@ -38,43 +44,61 @@ social: false # includes social icons at the bottom of the page
 
 # ICLR Blogposts Track
 
-The Machine Learning community is currently experiencing a [reproducibility crisis](https://neuripsconf.medium.com/designing-the-reproducibility-program-for-neurips-2020-7fcccaa5c6ad) and a reviewing crisis [[Littman, 2021]](#Litt). Because of the highly competitive and noisy reviewing process of ML conferences [[Tran et al., 2020]](#Tran), researchers have an incentive to oversell their results, slowing down the progress and diminishing the integrity of the scientific community. Moreover with the growing number of papers published and submitted at the main ML conferences [[Lin et al., 2020]](#Lin), it has become more challenging to keep track of the latest advances in the field.
+The Machine Learning community is currently experiencing a [reproducibility crisis](https://neuripsconf.medium.com/designing-the-reproducibility-program-for-neurips-2020-7fcccaa5c6ad), a reviewing crisis [[Littman, 2021]](#Litt), and submission crisis. Because of the highly competitive, noisy, and overwhelmed reviewing process of ML conferences [[Tran et al., 2020]](#Tran), researchers have an incentive to oversell their results, slowing down the progress and diminishing the integrity of the scientific community. Moreover with the growing number of papers published and submitted at the main ML conferences [[Lin et al., 2020]](#Lin), it has become more challenging to keep track of the latest advances in the field.
 
-Blog posts are becoming an increasingly popular and useful way to talk about science [[Brown and Woolston, 2018]](#Brow). They offer substantial value to the scientific community by providing a flexible platform to foster open, human, and transparent discussions about new insights or limitations of a scientific publication. However, because they are not as recognized as standard scientific publications, only a minority of researchers manage to maintain an active blog and get visibility for their efforts. Many are well-established researchers ([Francis Bach](https://francisbach.com/), [Ben Recht](https://www.argmin.net/), [Ferenc Huszár](https://www.inference.vc/), [Lilian Weng](https://lilianweng.github.io/lil-log/)) or big corporations that leverage entire teams of graphic designers designer and writers to polish their blogs ([Facebook AI](https://ai.facebook.com/blog/?page=1), [Google AI](https://ai.googleblog.com/), [DeepMind](https://deepmind.com/blog), [OpenAI](https://openai.com/blog/)). As a result, the incentives for writing scientific blog posts are largely personal; it is unreasonable to expect a significant portion of the machine learning community to contribute to such an initiative when everyone is trying to establish themselves through publications.
+Blog posts are becoming an increasingly popular and useful way to talk about science [[Brown and Woolston, 2018]](#Brow). They offer substantial value to the scientific community by providing a flexible platform to foster open, **human**, and transparent discussions about new insights or limitations of a scientific publication. However, because they are not as recognized as standard scientific publications, only a minority of researchers manage to maintain an active blog and get visibility for their efforts. Many are well-established researchers ([Francis Bach](https://francisbach.com/), [Ben Recht](https://www.argmin.net/), [Ferenc Huszár](https://www.inference.vc/), [Lilian Weng](https://lilianweng.github.io/lil-log/)) or big corporations that leverage entire teams of graphic designers and writers to polish their blogs ([Facebook AI](https://ai.facebook.com/blog/?page=1), [Google AI](https://ai.googleblog.com/), [DeepMind](https://deepmind.com/blog), [OpenAI](https://openai.com/blog/)). As a result, the incentives for writing scientific blog posts are largely personal; it is unreasonable to expect a significant portion of the machine learning community to contribute to such an initiative when everyone is trying to establish themselves through publications.
 
-**Submit** your blogpost on [Openreview](https://openreview.net/group?id=ICLR.cc/{{ site.year }}/BlogPosts).
+**Submit** your blogpost on [OpenReview](https://openreview.net/group?id=ICLR.cc/{{ site.year }}/BlogPosts).
 
-## A Call for Blog Posts
+## A Blog Post Conference Track
 
-Last year, we ran the **{{ site.last_rank }}** iteration of the [Blogpost track](https://iclr-blogposts.github.io/{{ site.last_year }} /about) at ICLR {{ site.last_year }} !
+Last year, we ran the **fifth** iteration of the [Blogpost track](https://iclr-blogposts.github.io/2026/about) at ICLR 2026!
+
 It was very successful, with accepted posts presented in person at the main conference.
 
-<!-- Our goal is to create a formal call for blog posts at ICLR to incentivize and reward researchers to: -->
+Our goal is to create a formal call for blog posts at ICLR to incentivize and reward researchers to:
 
-We invite all researchers and practitioners to submit a blog post which:
+<!-- We invite all researchers and practitioners to submit a blog post which: -->
 
-1. Reviews past work and summarize the outcomes, develop new intuitions, or highlight some shortcomings.
-2. Presents novel perspectives or interpretations of existing machine learning concepts or techniques.
-3. Discusses important issues in machine learning, such as reproducibility, from a novel perspective.
-4. Analyzes the societal implications of recent advancements in machine learning and AI.
-5. Showcases cool research ideas that you tried but did not work out.
 
-**We will not consider politically motivated blogposts for publication.**
+1. Review past work and summarize the outcomes, develop new intuitions, or highlight some shortcomings.
+2. Present novel perspectives or interpretations of existing machine learning concepts or techniques.
+3. Discuss important issues in machine learning, such as reproducibility, from a novel perspective.
+4. Analyze the societal implications of recent advancements in machine learning and AI.
+5. If you are unsure about the content of your post you can reach us at
+6. [iclr-blogpost-track@googlegroups.com](mailto:iclr-blogpost-track@googlegroups.com)
 
-If you are unsure about the content of your post you can reach us at [iclr-blogpost-track@googlegroups.com](mailto:iclr-blogpost-track@googlegroups.com).
+
+<!-- **We will not consider politically motivated blogposts for publication.**
+
+If you are unsure about the content of your post you can reach us at [iclr-blogpost-track@googlegroups.com](mailto:iclr-blogpost-track@googlegroups.com). -->
 
 {% include previous.md %}
 
-<!-- A very influential initiative of this kind happened after the Second World War in France. Because of the lack of up-to-date textbooks, a collective of mathematicians under the pseudonym Nicolas Bourbaki [[Halmos 1957]](#Halm), decided to start a series of textbooks about the foundations of mathematics [[Bourbaki, 1939]](#Bour).
-In the same vein, we aim to provide a new way to summarize scientific knowledge in the ML community.  -->
+A very influential initiative of this kind happened after the Second World War in France. Because of the lack of up-to-date textbooks, a collective of mathematicians under the pseudonym Nicolas Bourbaki [[Halmos 1957]](#Halm), decided to start a series of textbooks about the foundations of mathematics [[Bourbaki, 1939]](#Bour). In the same vein, we aim to provide a new way to summarize scientific knowledge in the ML community. We will not consider politically motivated blogposts for publication.
+
+
+## AI Usage
+The rise of AI agents has led to an increase in AI-generated submissions, ranging from minor help with figures or grammar to fully AI-generated content that the authors do not themselves understand [[Shah, 2026]](#Shah). Blog posts should distill complex ideas into clear, engaging, and accessible content. Thus, we expect all text to be written primarily by humans (grammar editing is fine), though we welcome AI-generated widgets or figures that interactively bring the material to the reader, as we understand they take significant time to create. AI-generated text will be part of the reviewer rubric, and we may desk-reject AI-generated blog posts. Thank you for your understanding.
+
+## Submission caps
+
+There is a cap of two submissions per person.
+
+## Blog posts discussing previously published work
+
+#### Content
+
+
+Write a post on a subject that has been published at a top-tier venue (ICLR, ICML, NeurIPS, AAAI, UAI, CVPR, SIGGRAPH, ECCV, ICCV, etc.) relatively recently.
+
 
 #### Conflict of interest
 
 The authors of the blog posts will have to declare their conflicts of interest (positive or negative) with the paper (and the paper's authors) they write about. Conflicts of interest include:
-
-- Recent collaborators (less than 3 years)
-- Current institution -- reviewers will be asked to judge if the submission is sufficiently critical and objective of the papers addressed in the blog post.
-- **Blog Posts must not be used to highlight or advertise past publications of the _authors or their lab_**.
+-   Recent collaborators (less than 3 years)
+-   Current institution ​ Reviewers will be asked to judge if the submission is sufficiently critical and objective of the papers addressed in the blog post.
+-  **Blog Posts must not be used to highlight or advertise past publications of the **authors or their lab****.
 
 We will only ask the authors to report if they have a conflict of interest. If so, reviewers will be asked to judge if the submission is sufficiently critical and objective of the papers addressed in the blog post.
 
@@ -88,17 +112,17 @@ Additionally, accepted posts will have the option to present their work as a pos
 
 ## Submissions
 
-Our goal is to avoid heavily engineered, professionally-made blog posts ---Such as the “100+ hours” mentioned as a standard by the [Distill guidelines](https://distill.pub/journal/)---to entice ideas and clear writing rather than dynamic visualizations or embedded javascript engines.
 Please check our [submission instructions]({{ '/submitting' | relative_url }}) for more details.
 We accept submissions in both Markdown and HTML. We believe this is a good trade-off between complexity and flexibility.
 
-**Submit** your blogpost on [Openreview](<https://openreview.net/group?id=ICLR.cc/{{ site.year }}/BlogPosts&referrer=%5BHomepage%5D(%2F)>)
+**Submit** your blogpost on [OpenReview](https://openreview.net/group?id=ICLR.cc/2027/BlogPosts&referrer=%5BHomepage%5D(%2F))
 
 ## Contact
 
-For any technical issues with the blog post repository (for example, blog posts not displaying correctly or issues while following the [submission instructions](https://iclr-blogposts.github.io/{{ site.year }}/submitting/#creating-a-blog-post)), please open an [issue in our github repository](https://github.com/iclr-blogposts/{{ site.year }}/issues).
+For any technical issues with the blog post repository (for example, blog posts not displaying correctly or issues while following the [submission instructions](https://iclr-blogposts.github.io/2027/submitting/#creating-a-blog-post)), please open an [issue in our GitHub repository](https://github.com/iclr-blogposts/2027/issues).
 
 For other inquiries, reach us via email at: [iclr-blogpost-track@googlegroups.com](mailto:iclr-blogpost-track@googlegroups.com)
+
 
 ## Organizers
 
@@ -117,3 +141,5 @@ For other inquiries, reach us via email at: [iclr-blogpost-track@googlegroups.co
 <a name="Halm">Paul R Halmos. Nicolas Bourbaki. Scientific American, 1957.<a>
 
 <a name="Bour">Nicolas Bourbaki. Elements of mathematics. Éditions Hermann, 1939.</a>
+
+<a name=”Shah”>Nihar Shah. Asking authors about their own papers. Medium https://medium.com/@TmlrOrg/asking-authors-about-their-own-papers-3d2e04e5dee0, 2026. </a>
