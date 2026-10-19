@@ -44,7 +44,7 @@ social: false # includes social icons at the bottom of the page
 
 # ICLR Blogposts Track
 
-The Machine Learning community is currently experiencing a [reproducibility crisis](https://neuripsconf.medium.com/designing-the-reproducibility-program-for-neurips-2020-7fcccaa5c6ad), a reviewing crisis [[Littman, 2021]](#Litt), and submission crisis. Because of the highly competitive, noisy, and overwhelmed reviewing process of ML conferences [[Tran et al., 2020]](#Tran), researchers have an incentive to oversell their results, slowing down the progress and diminishing the integrity of the scientific community. Moreover with the growing number of papers published and submitted at the main ML conferences [[Lin et al., 2020]](#Lin), it has become more challenging to keep track of the latest advances in the field.
+The Machine Learning community is currently experiencing a [reproducibility crisis](https://neuripsconf.medium.com/designing-the-reproducibility-program-for-neurips-2020-7fcccaa5c6ad), a reviewing crisis [[Littman, 2021]](#Litt), and submission crisis [[Shah 2026]](#Shah). Because of the highly competitive, noisy, and overwhelmed reviewing process of ML conferences [[Tran et al., 2020]](#Tran), researchers have an incentive to oversell their results, slowing down the progress and diminishing the integrity of the scientific community. Moreover with the growing number of papers published and submitted at the main ML conferences [[Lin et al., 2020]](#Lin), it has become more challenging to keep track of the latest advances in the field.
 
 Blog posts are becoming an increasingly popular and useful way to talk about science [[Brown and Woolston, 2018]](#Brow). They offer substantial value to the scientific community by providing a flexible platform to foster open, **human**, and transparent discussions about new insights or limitations of a scientific publication. However, because they are not as recognized as standard scientific publications, only a minority of researchers manage to maintain an active blog and get visibility for their efforts. Many are well-established researchers ([Francis Bach](https://francisbach.com/), [Ben Recht](https://www.argmin.net/), [Ferenc Huszár](https://www.inference.vc/), [Lilian Weng](https://lilianweng.github.io/)) or big corporations that leverage entire teams of graphic designers and writers to polish their blogs ([Meta AI](https://ai.meta.com/blog/), [Google AI](https://research.google/blog/), [DeepMind](https://deepmind.google/blog/), [OpenAI](https://openai.com/news/)). As a result, the incentives for writing scientific blog posts are largely personal; it is unreasonable to expect a significant portion of the machine learning community to contribute to such an initiative when everyone is trying to establish themselves through publications.
 
@@ -65,8 +65,7 @@ Our goal is to create a formal call for blog posts at ICLR to incentivize and re
 2. Present novel perspectives or interpretations of existing machine learning concepts or techniques.
 3. Discuss important issues in machine learning, such as reproducibility, from a novel perspective.
 4. Analyze the societal implications of recent advancements in machine learning and AI.
-5. If you are unsure about the content of your post you can reach us at
-6. [iclr-blogpost-track@googlegroups.com](mailto:iclr-blogpost-track@googlegroups.com)
+5. If you are unsure about the content of your post you can reach us at [iclr-blogpost-track@googlegroups.com](mailto:iclr-blogpost-track@googlegroups.com)
 
 
 <!-- **We will not consider politically motivated blogposts for publication.**
@@ -97,8 +96,8 @@ Write a post on a subject that has been published at a top-tier venue (ICLR, ICM
 
 The authors of the blog posts will have to declare their conflicts of interest (positive or negative) with the paper (and the paper's authors) they write about. Conflicts of interest include:
 -   Recent collaborators (less than 3 years)
--   Current institution ​ Reviewers will be asked to judge if the submission is sufficiently critical and objective of the papers addressed in the blog post.
--  **Blog Posts must not be used to highlight or advertise past publications of the **authors or their lab****.
+-   Current institution ​: reviewers will be asked to judge if the submission is sufficiently critical and objective of the papers addressed in the blog post.
+- **Blog Posts must not be used to highlight or advertise past publications of the authors or their lab**.
 
 We will only ask the authors to report if they have a conflict of interest. If so, reviewers will be asked to judge if the submission is sufficiently critical and objective of the papers addressed in the blog post.
 
