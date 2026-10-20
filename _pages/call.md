@@ -27,6 +27,8 @@ We invite all researchers and practitioners to submit a blog post discussing:
 
 If you are unsure about the content of your post you can reach us at [iclr-blogpost-track@googlegroups.com](mailto:iclr-blogpost-track@googlegroups.com).  {% include previous.md %}
 
+### AI Usage
+The rise of AI agents has led to an increase in AI-generated submissions, ranging from minor help with figures or grammar to fully AI-generated content that the authors do not themselves understand [[Shah, 2026]](#Shah). Blog posts should distill complex ideas into clear, engaging, and accessible content. Thus, we expect all text to be written primarily by humans (grammar editing is fine), though we welcome AI-generated widgets or figures that interactively bring the material to the reader, as we understand they take significant time to create. AI-generated text will be part of the reviewer rubric, and we may desk-reject AI-generated blog posts. Thank you for your understanding.
 ​
 ### Conflict of interest
 ​
