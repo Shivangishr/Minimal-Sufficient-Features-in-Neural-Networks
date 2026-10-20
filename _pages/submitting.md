@@ -77,7 +77,7 @@ For more details about any of these steps, please refer to the appropriate secti
 
 3. To render your website locally, we highly recommend the use of VSCode [`devcontainers`](https://code.visualstudio.com/docs/devcontainers/containers). Make sure to have [Docker](https://docs.docker.com/engine/install/) installed for this to work. Once the devcontainer is entered, a webserver on `localhost:8080` should be automatically started and you can preview your blog post on `localhost:8080/{{ site.year }}/blog/[SUBMISSION-NAME]`. More information about the local setup can be found in the [Local Serving](#local-serving) section.
 
-4. To submit your website, create a pull request to the main repository. Make sure that this PR's title is `{{ site.date }}-[SUBMISSION NAME]`. This will trigger a GitHub Action that will build your blogpost. Provided your blogpost passes all our checks, it will be accessible at https://iclr-blogposts.github.io/2027/blog/[SUBMISSION-NAME]/ after the automated deployment completes.
+4. To submit your website, create a pull request to the main repository. Make sure that this PR's title is `{{ site.date }}-[SUBMISSION NAME]`. This will trigger a GitHub Action that will build your blogpost. Provided your blogpost passes all our checks, it will be accessible at <https://iclr-blogposts.github.io/2027/blog/[SUBMISSION-NAME]> after the automated deployment completes.
 
 5. If accepted, we will merge the accepted posts to our main repository. See the [camera ready](#camera-ready) section for more details on merging in an accepted blog post.
 
@@ -272,7 +272,7 @@ To submit your blog post:
    - i.e. `_posts/{{ site.date }}-[SUBMISSION NAME].md` would require a PR name `{{ site.date }}-[SUBMISSION NAME]`
 4. Your post will automatically run two pipelines: one to verify that you have not modified any other
    file in the repo, and another that will create a unique URL for your contributed blog post.
-   - After the automated deployment completes, your blog post will be accessible at https://iclr-blogposts.github.io/2027/blog/[SUBMISSION-NAME]/. 
+   - After the automated deployment completes, your blog post will be accessible at:<br> <https://iclr-blogposts.github.io/2027/blog/[SUBMISSION-NAME]>
    - Verify that everything looks correct in the given URL.
    - If the pipelines failed, check if it was because of improper formatting (i.e. you modified
      restricted files). If this is the case, fix the issues. If the issue persist, please ping one of the repo admins.
