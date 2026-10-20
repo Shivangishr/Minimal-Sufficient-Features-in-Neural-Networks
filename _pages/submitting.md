@@ -7,12 +7,6 @@ nav: true
 nav_order: 3
 ---
 
-<!-- 2027-TODO-UPNEW -->
-## Please note: we are currently updating the repo and workflows. Full submission guide coming soon! 
-
-If you want to start building your site now, we will mostly be following the process from the last iteration as described below, but please be aware that **we are not yet accepting pull requests**, and you may need to update your fork before submitting any pull requests with your submission.
-
------
 
 ### A more open process
 
