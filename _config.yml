@@ -319,7 +319,7 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  compress_javascript: true
+  compress_javascript: false
   # CSS is already minified upstream (Tailwind build ships tailwind.css; main.scss is compiled
   # with sass `style: compressed`). Re-minifying via cssminify2 mangles Tailwind v4 spacing
   # tokens inside calc(), turning `var(--spacing)` into the invalid `var( -  - spacing)` and
