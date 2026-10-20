@@ -83,7 +83,7 @@ For more details about any of these steps, please refer to the appropriate secti
 
 3. To render your website locally, we highly recommend the use of VSCode [`devcontainers`](https://code.visualstudio.com/docs/devcontainers/containers). Make sure to have [Docker](https://docs.docker.com/engine/install/) installed for this to work. Once the devcontainer is entered, a webserver on `localhost:8080` should be automatically started and you can preview your blog post on `localhost:8080/{{ site.year }}/blog/{{ site.year }}/[SUBMISSION-NAME]`. More information about the local setup can be found in the [Local Serving](#local-serving) section.
 
-4. To submit your website, create a pull request to the main repository. Make sure that this PR's title is `_posts/{{ site.date }}-[SUBMISSION NAME]`. This will trigger a GitHub Action that will build your blogpost and write the host's URL in a comment to your PR.
+4. To submit your website, create a pull request to the main repository. Make sure that this PR's title is `{{ site.date }}-[SUBMISSION NAME]`. This will trigger a GitHub Action that will build your blogpost. Provided your blogpost passes all our checks, it will be accessible at https://iclr-blogposts.github.io/2027/blog/2027/[SUBMISSION-NAME]/ after the automated deployment completes.
 
 5. If accepted, we will merge the accepted posts to our main repository. See the [camera ready](#camera-ready) section for more details on merging in an accepted blog post.
 
@@ -98,9 +98,9 @@ You will be submitting a pull request this repository.
 
 ### Creating a Blog Post
 
-To create a blog post in Markdown format, you can modify the [example]({% post_url 2027-04-30-distill-example %}) Markdown post `_posts/{{ site.date }}-distill-example.md` and rename it to `_posts/{{ site.date }}-[SUBMISSION NAME].md`, where `[SUBMISSION NAME]` is the name of your submission. You can see the result of the sample post .
+To create a blog post in Markdown format, you can modify the [example]({% post_url 2027-04-30-distill-example %}) Markdown post `_posts/{{ site.date }}-distill-example.md` and rename it to `_posts/{{ site.date }}-[SUBMISSION NAME].md`, where `[SUBMISSION NAME]` is the name of your submission. You can see the result of the sample post.
 
-While most users will want to create a post in the Markdown format, it is also possible to create a post in HTML format. For this, modify instead the example `_posts/{{ site.date }}-distill-example2.html` and rename it to `_posts/{{ site.date }}-[SUBMISSION NAME].html`. (NOTE: HTML is not officially supported, use at your own risk).
+While most users will want to create a post in the Markdown format, it is also possible to create a post in HTML format. <!-- For this, modify instead the example `_posts/{{ site.date }}-distill-example2.html` and rename it to `_posts/{{ site.date }}-[SUBMISSION NAME].html`. --> (NOTE: HTML is not officially supported, use at your own risk).
 
 You must modify the file's header (or 'front-matter') as needed.
 
@@ -276,8 +276,9 @@ To submit your blog post:
    Fill in the checklist provided in the PR template. The title of your pull request should be
    exactly the name of your markdown/html file.
    - i.e. `_posts/{{ site.date }}-[SUBMISSION NAME].md` would require a PR name `{{ site.date }}-[SUBMISSION NAME]`
-4. **(TBD - will be set up soon!)** Your post will automatically run two pipelines: one to verify that you have not modified any other
+4. Your post will automatically run two pipelines: one to verify that you have not modified any other
    file in the repo, and another that will create a unique URL for your contributed blog post.
+   - After the automated deployment completes, your blog post will be accessible at https://iclr-blogposts.github.io/2027/blog/2027/[SUBMISSION-NAME]/. 
    - Verify that everything looks correct in the given URL.
    - If the pipelines failed, check if it was because of improper formatting (i.e. you modified
      restricted files). If this is the case, fix the issues. If the issue persist, please ping one of the repo admins.
