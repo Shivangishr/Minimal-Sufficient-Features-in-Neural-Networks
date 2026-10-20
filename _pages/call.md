@@ -29,6 +29,10 @@ If you are unsure about the content of your post you can reach us at [iclr-blogp
 
 ### AI Usage
 The rise of AI agents has led to an increase in AI-generated submissions, ranging from minor help with figures or grammar to fully AI-generated content that the authors do not themselves understand [[Shah, 2026]](#Shah). Blog posts should distill complex ideas into clear, engaging, and accessible content. Thus, we expect all text to be written primarily by humans (grammar editing is fine), though we welcome AI-generated widgets or figures that interactively bring the material to the reader, as we understand they take significant time to create. AI-generated text will be part of the reviewer rubric, and we may desk-reject AI-generated blog posts. Thank you for your understanding.
+
+## Submission caps
+
+There is a cap of two submissions per person.
 ​
 ### Conflict of interest
 ​
