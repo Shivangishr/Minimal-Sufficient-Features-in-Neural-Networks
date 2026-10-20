@@ -19,16 +19,17 @@ prs=$(gh pr list --repo "$OWNER/$REPO" --state open -L 1000000 --json number \
   | jq -r '.[].number')
 
 for pr in $prs; do
-  # Get PR status using the checks API (works better with forks)
-  state=$(gh pr checks "$pr" --repo "$OWNER/$REPO" --json state --jq '.[0].state // "UNKNOWN"' 2>/dev/null || echo "UNKNOWN")
-  
-  # If checks API doesn't work, try the commit status API
-  if [ "$state" = "UNKNOWN" ] || [ "$state" = "null" ]; then
-    head_sha=$(gh pr view "$pr" --repo "$OWNER/$REPO" --json headRefOid --jq '.headRefOid')
-    state=$(gh api repos/"$OWNER"/"$REPO"/commits/"$head_sha"/status --jq '.state // "UNKNOWN"' 2>/dev/null || echo "UNKNOWN")
-  fi
+  # Ready = the filter-files check passed and no other check failed or is still running.
+  # Skipped checks (e.g. visual-regression on submission PRs) are ignored.
+  # `gh pr checks` exits non-zero when checks fail or are pending, so keep its output anyway.
+  checks=$(gh pr checks "$pr" --repo "$OWNER/$REPO" --json workflow,bucket 2>/dev/null || true)
+  [ -n "$checks" ] || checks="[]"
+  state=$(echo "$checks" | jq -r '
+    if ([.[] | select(.workflow == "filter-files" and .bucket == "pass")] | length) == 0 then "NO_FILTER_PASS"
+    elif ([.[] | select(.bucket == "fail" or .bucket == "cancel" or .bucket == "pending")] | length) > 0 then "NOT_ALL_PASSING"
+    else "SUCCESS" end')
 
-  if [ "$state" = "SUCCESS" ] || [ "$state" = "success" ]; then
+  if [ "$state" = "SUCCESS" ]; then
     echo "✅ Merging PR #$pr"
     
     # 4. Fetch head branch (works even if from fork)
