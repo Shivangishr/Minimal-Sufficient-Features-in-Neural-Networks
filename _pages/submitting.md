@@ -81,9 +81,9 @@ For more details about any of these steps, please refer to the appropriate secti
    Read the [relevant section](#creating-a-blog-post) for more details.
    **Make sure to omit any identifying information for the review process.**
 
-3. To render your website locally, we highly recommend the use of VSCode [`devcontainers`](https://code.visualstudio.com/docs/devcontainers/containers). Make sure to have [Docker](https://docs.docker.com/engine/install/) installed for this to work. Once the devcontainer is entered, a webserver on `localhost:8080` should be automatically started and you can preview your blog post on `localhost:8080/{{ site.year }}/blog/{{ site.year }}/[SUBMISSION-NAME]`. More information about the local setup can be found in the [Local Serving](#local-serving) section.
+3. To render your website locally, we highly recommend the use of VSCode [`devcontainers`](https://code.visualstudio.com/docs/devcontainers/containers). Make sure to have [Docker](https://docs.docker.com/engine/install/) installed for this to work. Once the devcontainer is entered, a webserver on `localhost:8080` should be automatically started and you can preview your blog post on `localhost:8080/{{ site.year }}/blog/[SUBMISSION-NAME]`. More information about the local setup can be found in the [Local Serving](#local-serving) section.
 
-4. To submit your website, create a pull request to the main repository. Make sure that this PR's title is `{{ site.date }}-[SUBMISSION NAME]`. This will trigger a GitHub Action that will build your blogpost. Provided your blogpost passes all our checks, it will be accessible at https://iclr-blogposts.github.io/2027/blog/2027/[SUBMISSION-NAME]/ after the automated deployment completes.
+4. To submit your website, create a pull request to the main repository. Make sure that this PR's title is `{{ site.date }}-[SUBMISSION NAME]`. This will trigger a GitHub Action that will build your blogpost. Provided your blogpost passes all our checks, it will be accessible at https://iclr-blogposts.github.io/2027/blog/[SUBMISSION-NAME]/ after the automated deployment completes.
 
 5. If accepted, we will merge the accepted posts to our main repository. See the [camera ready](#camera-ready) section for more details on merging in an accepted blog post.
 
@@ -250,7 +250,7 @@ Once the extension is installed, VSCode should automatically prompt you to open 
 
 #### Previewing your Blog Post
 
-The devcontainer direct starts serving the website on `localhost:8080/{{ site.year }}/` and you may find your blog post under `localhost:8080/{{ site.year }}/blog/{{ site.year }}/[SUBMISSION-NAME]`.
+The devcontainer direct starts serving the website on `localhost:8080/{{ site.year }}/` and you may find your blog post under `localhost:8080/{{ site.year }}/blog/[SUBMISSION-NAME]`.
 Crucially, if the files contain errors the build process may fail and no server may be started.
 In that case, you may restart the server manually using `bundle exec jekyll serve --future`. Make sure to use this command from **within** the devcontainer.
 
@@ -278,7 +278,7 @@ To submit your blog post:
    - i.e. `_posts/{{ site.date }}-[SUBMISSION NAME].md` would require a PR name `{{ site.date }}-[SUBMISSION NAME]`
 4. Your post will automatically run two pipelines: one to verify that you have not modified any other
    file in the repo, and another that will create a unique URL for your contributed blog post.
-   - After the automated deployment completes, your blog post will be accessible at https://iclr-blogposts.github.io/2027/blog/2027/[SUBMISSION-NAME]/. 
+   - After the automated deployment completes, your blog post will be accessible at https://iclr-blogposts.github.io/2027/blog/[SUBMISSION-NAME]/. 
    - Verify that everything looks correct in the given URL.
    - If the pipelines failed, check if it was because of improper formatting (i.e. you modified
      restricted files). If this is the case, fix the issues. If the issue persist, please ping one of the repo admins.
