@@ -59,6 +59,8 @@ toc:
 
 Recent advances in LLMs and nonparametric methods in machine has led to deployment in various domains such as, natural language understanding[], vision [], speech[] and multimodal applications[]. With such great advances in the field deep learning models are still considered opaque. Many such domains and applications which benefits from better models are often require a model to be transparent. For example: weather prediction model, rejecting loan application, bail denial model or real-time systems in space and finance. It is important that decisions in such applications can be interpretably rationalized. 
 
+{% raw %}{% include figure.liquid path="assets/img/2027-04-30-Minimal-Sufficient-Features-in-Neural-Networks/Interpretability.jpg" class="img-fluid" %}{% endraw %}
+
 Define Interpretability 
 
 Example for Interpretability
