@@ -57,5 +57,9 @@ toc:
 6. About SIS
 7. About Anchors
 
-Recent advances in LLMs and nonparametric methods in machine has led to deployment in various domains such as, language[], vision [], speech[] and multimodal applications[]. With such great advances in the field deep learning models are still considered opaque. Many such domains and applications which benefits from better models are often require a model to be transparent. For example: weather prediction model, rejecting loan application, bail denial model or real-time systems in space and finance. It is important that decisions in such applications can be interpretably rationalized. 
+Recent advances in LLMs and nonparametric methods in machine has led to deployment in various domains such as, natural language understanding[], vision [], speech[] and multimodal applications[]. With such great advances in the field deep learning models are still considered opaque. Many such domains and applications which benefits from better models are often require a model to be transparent. For example: weather prediction model, rejecting loan application, bail denial model or real-time systems in space and finance. It is important that decisions in such applications can be interpretably rationalized. 
+
+Define Interpretability 
+
+Example for Interpretability
 
