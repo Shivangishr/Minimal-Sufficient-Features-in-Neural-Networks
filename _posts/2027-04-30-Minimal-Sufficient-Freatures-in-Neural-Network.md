@@ -49,3 +49,10 @@ toc:
 
 # ... your blog post's content ...
 
+1. What is interpretability?
+2. Why do we need it? Examples
+3. Why minimal sufficient set?
+4. What questions we are addressing here?
+5. About Fong and Veldadi paper
+6. About SIS
+7. About Anchors
